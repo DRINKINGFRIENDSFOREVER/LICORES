@@ -1,25 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"  >
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>REALIZA TU PEDIDO</title>
+    <style>
+        body{
+            background-color: black;
+        }
+       label{
+           color: white;
+           text-align: right;
+       }
+        </style>
 </head>
 <body>
     <form id="contact-form" class="contact" name="contact-form" method="post" action="enviar2.php">
+        <img src="logoprincipal.jpg" width="20%">  <label> REALIZA TU PEDIDO</label> 
 <div class="form-group">
 <input type="text" name="nombre" class="form-control name-field" required="required" placeholder="Tu Nombre">
 </div>
     <div class="form-group">
-        <input type="email" name="email" class="form-control mail-field" required="required" placeholder="Tu Email">
+        <input type="text" name="direccion" class="form-control mail-field" required="required" placeholder="Tu Dirección">
         </div>
         <div class="form-group">
-           <textarea name="mensaje" id="message" rows="8" required="required" class="form-control" placeholder="Comentarios"></textarea>
+           <textarea name="licor" id="message" rows="8" required="required" class="form-control" placeholder="Licor que deseas"></textarea>
             </div>
             <div class="form-group">
-              <button type="submit" class="btn btn-primary">ENVIAR</button>
+              <button type="submit" class="btn btn-outline-warning ">ENVIAR</button>
                  </div>
      
 
